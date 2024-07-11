@@ -1,0 +1,52 @@
+body {
+    background: #ffefba; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f01010, #44380f); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3f2f42, #642588); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 16px;
+}
+
+.nav-link {
+    font-weight: 600;
+}
+
+.text-beige{
+    text-align: justify;
+    color: aliceblue;
+    
+}
+
+.card:hover {
+    opacity: 0.7;
+}
+
+.card-text {
+    text-align: justify;
+    background-color: aliceblue;
+}
+
+#txtComment {
+    resize: none;
+}
+
+@media (max-width: 576px) {
+    .card-text {
+        font-size: 0.8rem;
+    }
+}
+.btn btn-primary btn-lg{
+    background: whitesmoke;
+    background-color: aliceblue;
+}
+
+.display-3 {
+    color: aliceblue;
+}
+.form-label{
+    color: white;
+}
+.py-3 my-4{
+    color: white;
+}
+.nav justify-content-center border-bottom pb-3 mb-3{
+    color: white;
+}
